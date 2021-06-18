@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkillFactory.ToDoList.BLL.Interface\SkillFactory.ToDoList.BLL.Interface.csproj" />
+    <ProjectReference Include="..\SkillFactory.ToDoList.BLL\SkillFactory.ToDoList.BLL.csproj" />
+    <ProjectReference Include="..\SkillFactory.ToDoList.DAO\SkillFactory.ToDoList.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

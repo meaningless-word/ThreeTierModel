@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkillFactory.ToDoList.BLL.Interface\SkillFactory.ToDoList.BLL.Interface.csproj" />
+    <ProjectReference Include="..\SkillFactory.ToDoList.BLL\SkillFactory.ToDoList.BLL.csproj" />
+    <ProjectReference Include="..\SkillFactory.ToDoList.DAO\SkillFactory.ToDoList.DAL.csproj" />
+    <ProjectReference Include="..\SkillFactory.ToDoList.IOC\SkillFactory.ToDoList.IOC.csproj" />
+  </ItemGroup>
+
+</Project>
